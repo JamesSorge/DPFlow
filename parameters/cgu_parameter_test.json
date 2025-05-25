@@ -1,0 +1,13 @@
+{
+    "cgu_block" : {
+        "cross_gate": {
+            "in_channels": ,
+            "out_channels": 
+        },
+        "self_gate": {
+            "in_channels": ,
+            "out_channels": 
+        }
+        
+    }
+}
