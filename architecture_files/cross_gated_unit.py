@@ -194,7 +194,6 @@ class CrossGateBlock(nn.Module):
         y_skip = y.clone()
 
         # Normalize data prior to CGU forward pass
-        print(f"x shape prior to norm: {x.shape}")
         x = self.norm(x)
         y = self.norm(y)
 
