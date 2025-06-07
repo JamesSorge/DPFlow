@@ -173,5 +173,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# Custom directory additions
+# Custom additions
 datasets/
+experiments/.nfs*
