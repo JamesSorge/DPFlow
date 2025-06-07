@@ -175,7 +175,7 @@ class CustomDPFlow(BaseModel):
             output_stride = None
             self.extra_output_stride = 1 if enc_network == "swin_bidir_dual" else 0
 
-        super(DPFlow, self).__init__(
+        super(CustomDPFlow, self).__init__(
             loss_fn=SequenceLoss(loss=loss, max_flow=max_flow, gamma=gamma),
             output_stride=output_stride,
             **kwargs,
